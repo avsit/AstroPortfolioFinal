@@ -8,6 +8,7 @@ h1 {
     font-size: 72px;
     font-weight: bold;
     color: white;
+    display: flexbox;
     
 }
 
@@ -15,14 +16,21 @@ h1 {
     background: rgba(0, 0, 0, 0.5);
     background-image: url(images/wizard.jpg);
     /* background-color: blue; */
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
+    padding: 10px 10px;
+    height: 500px;
     
 }
 
 #mywork {
     background: #FEC520;
+    height: 50vh;
+}
+
+#picme {
+    display: inline;
 }
 
 #aboutme {
@@ -32,6 +40,7 @@ h1 {
 #skills {
     background: white;
     color: black;
+    height: 50vh;
 }
 
 #skills h1 {
