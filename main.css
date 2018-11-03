@@ -1,0 +1,39 @@
+h1 {
+    /* display: flex;
+    /* font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; */
+    /* padding: 10px 10px;
+    margin: 10px 10px; */
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+#cover {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(images/wizard.jpg);
+    /* background-color: blue; */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#mywork {
+    background: #FEC520;
+}
+
+#aboutme {
+    background: #9F7CB2;
+}   
+
+#skills {
+    background: white;
+    color: black;
+}
+
+#skills h1 {
+    color: black;
+}
